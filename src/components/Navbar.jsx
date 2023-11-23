@@ -7,11 +7,11 @@ function NavbarComp() {
 
 return (
     <div>
-         <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand><Link to={"/"}>WikiCountries</Link></Navbar.Brand>
-        </Container>
-      </Navbar>
+         <nav className="navbar navbar-dark bg-primary mb-3">
+        <div>
+          <Link className="navbar-brand" to={"/"}>WikiCountries</Link>
+        </div>
+      </nav>
       
     </div>
 )
